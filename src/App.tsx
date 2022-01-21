@@ -1,11 +1,15 @@
+import { Dashboard } from "./components/Dashboard";
+import { Header } from "./components/Header";
+
 import { GlobalStyle } from "./styles/Global";
 
 export function App() {
   return (
-    <div className="App"> 
-      <h1>Hellod Word</h1>    
-      <GlobalStyle />
-    </div>
+    <>  
+      <Header />
+      <Dashboard />
+      <GlobalStyle />       
+    </>
   );
 }
 
