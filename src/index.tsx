@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createServer} from 'miragejs';
-import { App }from './App';
+import { createServer } from 'miragejs';
+import { App } from './App';
 
 createServer({
   routes() {
     this.namespace = 'api';
 
-    this.get('/transactions', () =>{
+    this.get('/transactions', () => {
       return [
         {
           id: 1,

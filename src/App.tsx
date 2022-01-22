@@ -12,25 +12,25 @@ Modal.setAppElement('#root');
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
-  function handleOpenNewTransactionModal(){
+  function handleOpenNewTransactionModal() {
     setIsNewTransactionModalOpen(true);
   }
-  function handleCloseNewTransactionModal(){
+  function handleCloseNewTransactionModal() {
     setIsNewTransactionModalOpen(false);
   }
 
   return (
-    <>  
+    <>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
 
       <Dashboard />
 
-      <NewTransactionModal 
-         isNewTransactionModalOpen={isNewTransactionModalOpen}
-         handleCloseNewTransactionModal={handleCloseNewTransactionModal}
-      />     
+      <NewTransactionModal
+        isOpen={isNewTransactionModalOpen}
+        onRequestClose={handleCloseNewTransactionModal}
+      />
 
-      <GlobalStyle />       
+      <GlobalStyle />
     </>
   );
 }
