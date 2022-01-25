@@ -1,24 +1,9 @@
-import { useEffect, useState } from "react";
-import { api } from "../../services/api";
-
+import { useTransactions } from '../../hooks/useTransactions';
 import { Container } from "./styles";
 
-interface TransactiocnProps {
-    id: number;
-    title: string;
-    type: string;
-    category: string;
-    amount: number;
-    createdAT: string;
-}
 
 export function TransactionsTable() {
-    const [transaction, setTransaction] = useState<TransactiocnProps[]>([]);
-
-    useEffect(() => {
-        api.get('transactions')
-            .then(response => setTransaction(response.data.transactions))
-    }, [])
+    const {transactions} = useTransactions();    
 
     return (
         <Container>
@@ -33,7 +18,7 @@ export function TransactionsTable() {
                 </thead>
 
                 <tbody>
-                    {transaction.map(item => (
+                    {transactions.map(item => (
                         <tr key={item.id}>
                             <td>{item.title}</td>
                             <td className={item.type}>
