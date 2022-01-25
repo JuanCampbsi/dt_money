@@ -21,7 +21,7 @@ createServer({
         },
         {
           id: 2,
-          title: 'Pizzae',
+          title: 'Pizza',
           type: 'withdraw',
           category: 'Alimentação',
           amount: 100,

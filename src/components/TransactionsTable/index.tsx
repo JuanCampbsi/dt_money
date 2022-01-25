@@ -1,9 +1,18 @@
 import { useTransactions } from '../../hooks/useTransactions';
 import { Container } from "./styles";
 
+import trashImg from '../../assets/trash.svg';
+import { api } from '../../services/api';
+
 
 export function TransactionsTable() {
-    const {transactions} = useTransactions();    
+    const {transactions} = useTransactions();  
+        
+   async function handleDelete(title: string) {
+        const newTransaction =  transactions.filter((item) => item.title !== title)
+              
+        return console.log(newTransaction);
+      };
 
     return (
         <Container>
@@ -32,6 +41,14 @@ export function TransactionsTable() {
                                 {new Intl.DateTimeFormat('pt-BR').format(
                                     new Date(item.createdAT)
                                 )}
+                            </td>
+                            <td>
+                                <button type="button" style={{ 
+                                    background: '#FFF',
+                                    border: 0
+                                    }} onClick={() => handleDelete(item.title)}>
+                                    <img src={trashImg} alt="Excluir" />
+                                </button>
                             </td>
                         </tr>
                     ))}
