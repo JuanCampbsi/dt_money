@@ -17,7 +17,7 @@ Interface do usuário.
 
 <p align="center">
   <kbd>
- <img width="850" style="border-radius: 10px" height="550" src="" alt="Intro"> 
+ <img width="850" style="border-radius: 10px" height="550" src="https://github.com/JuanCampbsi/dtmoney/blob/769e58b54dd430a450650cd4f6ff3d66bc1ec0ab/assets/preview.gif" alt="Intro"> 
   </kbd>
   </br>
 </p>
