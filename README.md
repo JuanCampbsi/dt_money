@@ -8,7 +8,7 @@
 
 </br>
 
-O projeto tem como o objetivo .....
+O projeto tem como o objetivo cadastrar entradas e saídas, e controlar o total dos valores.
 
 
 ## Preview 📱
