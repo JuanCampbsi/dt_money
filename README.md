@@ -1,13 +1,13 @@
 <p align="center">
 <h1>
- dtmoney
+ Dtmoney
 </h1>
 </p>
-🛠 Description
+### 🛠 Description
 </br>
 The project aims to register income and expenses and keep track of the total balance.
 
-Preview 📱
+## Preview 📱
 User Interface.
 </br>
 
@@ -18,7 +18,7 @@ User Interface.
   </br>
 </p>
 </br>
-⌨ Installation
+### Installation
 To use the application, you need to clone the repository, install the dependencies, and run the project.
 
 ```bash
@@ -38,11 +38,12 @@ $ yarn start
 # The server will start on port:3000 - access <http://localhost:3000>
 ```
 </br>
-⌨ Tech Stack and Libraries
-React
-Typescript
-Styled Components
+### Tech Stack and Libraries
+-   [React](https://github.com/facebook/react)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [Styled Components](https://www.styled-components.com/) 
 </br>
-👨‍💻 Author 💻
 
-Developed by Juan Campos
+👨‍💻 **Author** 💻
+
+Developed by [_Juan Campos_](https://www.linkedin.com/in/juancampos-ferreira/)
