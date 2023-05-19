@@ -3,16 +3,12 @@
  dtmoney
 </h1>
 </p>
-
-### 🛠  Descrição   
-
+🛠 Description
 </br>
+The project aims to register income and expenses and keep track of the total balance.
 
-O projeto tem como o objetivo cadastrar entradas e saídas, e controlar o total dos valores.
-
-
-## Preview 📱
-Interface do usuário.
+Preview 📱
+User Interface.
 </br>
 
 <p align="center">
@@ -21,40 +17,32 @@ Interface do usuário.
   </kbd>
   </br>
 </p>
-
 </br>
-
-### ⌨ Instalação
-Para a utilização é preciso clonar o repositório, instalar as depedências e rodar o projeto.
+⌨ Installation
+To use the application, you need to clone the repository, install the dependencies, and run the project.
 
 ```bash
-# Abra o terminal/cmd e em seguida Clone este repositório
+Copy code
+# Open the terminal/cmd and then clone this repository
 $ git clone https://github.com/JuanCampbsi/dtmoney.git
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in the terminal/cmd
 $ cd dtmoney
 
-# Instale as dependências
-$ yarn install ou apenas yarn
+# Install the dependencies
+$ yarn install or just yarn
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode
 $ yarn start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
-
+# The server will start on port:3000 - access <http://localhost:3000>
 ```
-
 </br>
-
-### ⌨ Pilha de tecnologias e bibliotecas
-
--   [React](https://github.com/facebook/react)
--   [Typescript](https://www.typescriptlang.org/)
--   [Styled Components](https://www.styled-components.com/) 
-
+⌨ Tech Stack and Libraries
+React
+Typescript
+Styled Components
 </br>
+👨‍💻 Author 💻
 
-👨‍💻 **Author** 💻
-
-Developed by [_Juan Campos_](https://www.linkedin.com/in/juancampos-ferreira/)
-
+Developed by Juan Campos
